@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE TEI.2 SYSTEM "http://www.gutenberg.org/tei/marcello/0.4/dtd/pgtei.dtd">
+<TEI.2 lang="de">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Martin Behaim aus Nürnberg</title>
+                <author><name reg="Ziegler, Alexander">Alexander Ziegler</name></author>
+            </titleStmt>
+            <editionStmt>
+                <edition n="1">Project Gutenberg TEI Edition 1</edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Project Gutenberg</publisher>
+                <date value="2010-02-18">February 18, 2010</date>
+                <idno type='etext-no'>31321</idno>
+                <availability>
+                    <p>This eBook is for the use of anyone anywhere at no cost and
+                        with almost no restrictions whatsoever. You may copy it, give it
+                        away or re-use it under the terms of the Project Gutenberg
+                        License online at www.gutenberg.org/license</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl><author><name reg="Ziegler, Alexander">Alexander Ziegler</name></author>
+                <title>Martin Behaim aus Nürnberg</title>
+                <title type="sub">Der geistige Entdecker Amerika’s</title>
+                    <imprint><pubPlace>Dresden</pubPlace>
+                    <publisher>Heinrich</publisher>
+                    <date>1859</date></imprint>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+        </encodingDesc>
+        <profileDesc>
+          <langUsage>
+            <language id="de" >Deutsch</language>
+              <language id="en">Englisch</language>
+              <language id="es">Spanisch</language>
+              <language id="fr">Französisch</language>
+              <language id="it">Italienisch</language>
+              <language id="la">Latein</language>
+              <language id="pt">Portugiesisch</language>
+          </langUsage>
+        </profileDesc>
+        <revisionDesc>
+          <change>
+            <date value="2010-02-18">February 18, 2010</date>
+            <respStmt>
+                <resp>Produced by Karl Eichwalder, Norbert H. Langkau, Stefan Cramme 
+                    and the Online Distributed Proofreading Team at http://www.pgdp.net 
+                    (This book was produced from scanned images of public domain material 
+                    from the Google Print project.)</resp>
+            </respStmt>
+            <item>Project Gutenberg TEI edition 1</item>
+          </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <pgExtensions>
+      <pgStyleSheet>
+        .italic      { font-weight: bold }
+        .antiqua     { font-style: italic }
+        .gesperrt    { letter-spacing: 0.2em; margin-right: -0.2em }
+        .center      { text-align: center }
+      </pgStyleSheet>
+        <!--<pgStyleSheet>
+         text        { font-family: Georgia, "Times New Roman", Times, serif }
+        .italic      { font-style: italic }
+        .antiqua     { font-family: Verdana, Arial, sans-serif }
+        .gesperrt    { letter-spacing: 0.2em; margin-right: -0.2em }
+        .center      { text-align: center }
+      </pgStyleSheet>-->
+        <pgCharMap formats="txt.iso-8859-1">
+            <char id="U0x2013">
+                <charName>ndash</charName>
+                <desc>EN DASH</desc>
+                <mapping>-</mapping>
+            </char>
+            <char id="U0x2018">
+                <charName>lsquo</charName>
+                <desc>LEFT SINGLE QUOTATION MARK</desc>
+                <mapping>'</mapping>
+            </char>
+            <char id="U0x2019">
+        <charName>rsquo</charName>
+        <desc>RIGHT SINGLE QUOTATION MARK</desc>
+        <mapping>'</mapping>
+    </char>
+            <char id="U0x201A">
+                <charName>sbquo</charName>
+                <desc>SINGLE LOW-9 QUOTATION MARK</desc>
+                <mapping>'</mapping>
+            </char>
+            <char id="U0x201C">
+                <charName>ldquo</charName>
+                <desc>LEFT DOUBLE QUOTATION MARK</desc>
+                <mapping>"</mapping>
+            </char>
+            <char id="U0x201E">
+                <charName>bdquo</charName>
+                <desc>DOUBLE LOW-9 QUOTATION MARK</desc>
+                <mapping>"</mapping>
+            </char>
+        </pgCharMap>
+    </pgExtensions>
+
+<text lang="de">
+<front>
+    <div>
+                <divGen type="pgheader" />
+            </div>
+            <div>
+                <divGen type="encodingDesc" />
+            </div>
+    <titlePage rend="center; page-break-before: right">
+        <pb/><anchor id="Pgi"/>
+        <docTitle>
+            <titlePart><hi rend="font-weight: bold; font-size: xx-large">Martin Behaim</hi>
+                <lb/><lb/>
+                <hi rend="font-size: large">aus Nürnberg.</hi></titlePart>
+            <lb/><lb/>
+            <titlePart><hi rend="font-size: x-large; font-weight: bold">Der geistige Entdecker Amerika’s.</hi></titlePart>
+        </docTitle>
+        <lb/><lb/><lb/><lb/>
+        <byline>Von
+            <lb/><lb/>
+            <docAuthor rend="font-size: large; font-weight: bold">Alexander Ziegler.</docAuthor></byline>
+        <lb/><lb/>
+        <docImprint><hi rend="font-weight: bold">Dresden,</hi><lb/>
+        <hi rend="font-size: small; gesperrt">Druck von G. Heinrich.</hi></docImprint>
+       <lb/>
+        <docDate><hi rend="font-weight: bold">1859.</hi></docDate>
+        <pb/><anchor id="Pgii"/>
+    </titlePage>
+    
+    <div type="dedication" rend="page-break-before: right">
+        <pb/><anchor id='Pg003'/>
+            <p rend="center">
+                <hi rend="font-size: large">Dem</hi>
+                <lb/><lb/>
+                <hi rend="font-size: xx-large">Germanischen Museum</hi>
+                <lb/><lb/>
+                <hi rend="font-size: x-large">in Nürnberg</hi>
+            </p>
+            <lb/><lb/><lb/>
+            <p rend="margin-left:15">
+                <hi rend="font-size: large">ehrfurchtsvoll gewidmet</hi>
+            </p>
+            <lb/>
+            <p rend="margin-left: 20">
+                von dem
+            </p>
+            <lb/>
+            <p rend="margin-left: 25">
+                <hi rend="font-size: large">Verfasser.</hi>
+            </p><dateline rend="font-size: large; text-align: left">
+                Ruhla, den 20. Juli 1859.
+            </dateline>
+        <pb/><anchor id='Pg004'/>
+    </div>
+</front>
+    <body rend="page-break-before: right">
+<pb n='5'/><anchor id='Pg005'/>
+<p>
+Martin Behaim wurde in Nürnberg um 1459 geboren.
+Derselbe stammte aus dem altadeligen Geschlechte der Herren
+<hi rend='gesperrt'>Behaim von Schwarzbach</hi>, die in <hi rend='gesperrt'>Böhmen</hi>, in dem
+Kreise Pilsen, an einem Wasser, die Schwarze genannt, – daher
+der Name Schwarzbach, – wohnten. Im neunten Jahrhundert
+wandten sie sich um der Religion willen aus Böhmen
+nach Nürnberg, daher der Zuname Behaim, Böheim, öfter
+auch <foreign lang="la" rend='antiqua'>Bohemus</foreign> und <foreign lang="la" rend='antiqua'>Martinus de Boemia</foreign>. Martin Behaim
+lernte anfänglich die Kaufmannschaft und trieb daneben unter
+der Leitung des berühmten Johann Regiomontanus (Müller
+aus Königsberg in Franken), der sich in den Jahren 1471
+bis 1475 in Nürnberg aufgehalten und dort die Verfertigung
+mathematischer Instrumente auf eine hohe Stufe erhoben
+hatte, mathematische und in der Folge auch nautische Wissenschaften.
+Hierauf machte Behaim in Handelsgeschäften große
+Reisen nach Venedig, wo schon um die Mitte des vierzehnten
+Jahrhunderts seine Vorfahren Albrecht und Fritz Behaim leb<pb n='6'/><anchor id='Pg006'/>haft 
+    am Spezereihandel betheiligt waren, den sie hauptsächlich
+aus Böhmen verführten. Ebenso kam er auch nach Mecheln
+und Antwerpen in den Niederlanden, von wo er im Jahre
+1479 oder 1480 nach Lissabon und mit dem Strome niederländischer
+Auswanderer nach den Azoren gerathen ist. Behaim
+trat unter König Johann II. in portugiesische Dienste, machte
+mehre <hi rend='gesperrt'>Entdeckungsreisen</hi> zwischen den Wendekreisen, entdeckte
+mit Diego Cano die Küsten von Congo (1484, 1485
+und 1486) und gründete Niederlassungen auf den, wenn nicht
+schon früher, im Mittelalter von den Arabern und Normannen
+besuchten und in der Mitte des vierzehnten Jahrhunderts von
+den Italienern aufgefundenen, im Jahre 1432 bis 1449 von
+den Portugiesen entdeckten Azoren. Hier heirathete er (1486)
+Johanna, die Tochter des erblichen Statthalters oder Lehnträgers
+Ritter Jobst Hurter von Moerkirchen auf den Inseln
+Fayal und Pico und hat aus der erstgenannten Insel mehre
+Jahre zugebracht, um die Ansiedelung auf derselben zu befördern.
+Im Jahre 1491 reiste Behaim nach seiner Vaterstadt
+Nürnberg, verfertigte daselbst seine berühmte Weltkugel
+und kehrte im Jahre 1493 nach Portugal und Fayal zurück.
+Später machte er, wie er in einem Briefe aus Brabant vom
+11. März 1494 an seinen Vetter, den Senator Michael Behaim
+in Nürnberg, berichtet, in vertrautem Auftrage des Königs
+Johann II. noch einige Reisen, auf welchen er ein Mal das
+Unglück hatte von den Engländern und ein ander Mal von
+den Seeräubern gefangen zu werden. Auch besuchte er noch
+<pb n='7'/><anchor id='Pg007'/>ein Mal sein geliebtes Fayal und starb im Jahre 1506 in
+Lissabon mit Hinterlassung eines im Jahre 1489 geborenen
+Sohnes. Wenn nun auch der Nürnberger Patricier seit seiner
+Fahrt mit Diego Cano selbst nichts über sich und den Schauplatz
+der Entdeckungen berichtet und die wichtigen Jahre von
+1493 resp. 1494 bis zu seinem Tode in Dunkelheit bleiben,
+so ist doch aus mancherlei glaubwürdigen und verbürgten
+Nachrichten und Thatsachen auf eine Theilnahme Behaim’s an
+den Entdeckungsreisen jener Periode zu schließen. Wir werden
+im Folgenden auf diese Thatsachen näher eingehen, vorher
+jedoch eine historiographische Ehrenrettung des in neuerer Zeit
+wiederum mehrfach an seinem Ruhme angegriffenen großen
+Kosmographen Martin Behaim im Lessing’schen Sinne zu
+geben versuchen.
+</p>
+
+<p>
+Ebenso weit entfernt davon, die großen Verdienste des
+Columbus schmälern, als davon, die Verdienste unseres <hi rend='gesperrt'>deutschen</hi>
+Landsmannes Behaim, Zeitgenossen von Columbus,
+dessen Ruhm zu schmälern er nimmer beabsichtigt hat, überschätzen
+zu wollen, können wir doch auch weder unserer Ueberzeugung,
+noch unserem Patriotismus so große Selbstverleugnung
+auferlegen, uns der Meinung Derjenigen unterzuordnen,
+welche Behaim als einen mittelmäßigen Kosmographen und
+ungeübten Astronomen darzustellen und so die Grundbedingungen
+seines Rufes und Ruhmes, wenn auch nicht zu zerstören,
+doch zu erschüttern, sich die wenig dankenswerthe Mühe
+gegeben haben. Diese Versuche gründen sich vorzüglich auf
+<pb n='8'/><anchor id='Pg008'/>dessen berühmte Weltkugel, welche die geographischen Ansichten
+des fünfzehnten Jahrhunderts nach Ptolomäus, Marco Polo
+und Mandeville veranschaulicht und auf die Aussagen eines
+Geschichtsschreibers der Azoren aus dem siebenzehnten Jahrhundert,
+Namens Cordeyro. In Bezug auf erstere sagt man,
+und wohl auch nicht ganz mit Unrecht, daß Behaim bei seinen
+Breitenangaben um 12 bis 15° irrte, die Fehler seiner Breitenbestimmungen
+bei der Prinzessin-Insel begönnen und sich zuletzt
+auf mehr als 16° steigerten, daß sein Island auch fälschlich
+innerhalb des arktischen Kreises sich nach dem hohen Norden
+erstrecke und was dergleichen Behauptungen mehr sind. In
+Bezug auf Cordeyro, den einzigen Schriftsteller, welcher Nachrichten
+über Behaims letzte Schicksale enthalte, führt man an:
+daß dieser einige von dessen unerquicklichen astrologischen
+Prophezeiungen mittheile<note place="foot"><foreign rend="antiqua" lang="la"><hi rend='italic'>Cordeyro 
+    Histor. Insulana</hi> lib. IX. cap. 8 fol. 494</foreign>.
+    Man findet in dieser Stelle und in F. Gaspar Fructuosa allerdings
+    Nachrichten über die geographischen und astronomischen
+    Kenntnisse Behaims, die aber so groß gewesen sein sollen, daß
+    seine Freunde und im Allgemeinen alle Einwohner ihn mit einer
+    abergläubischen Ehrfurcht betrachteten; so gewiß waren seine Bestimmungen
+    und seine Vorhersagungen.</note> und aussage, daß Behaim auf den
+Azoren den unheimlichen Ruf eines Meisters der astrologischen
+Trugkünste hinterlassen habe. Mag dem sein, wie ihm wolle,
+alle diese und andere Angaben können den Ruf Behaims als
+Kosmograph nicht verringern; denn sie beweisen nur, daß der
+Standpunkt der damaligen geographischen Wissenschaften im
+<pb n='9'/><anchor id='Pg009'/><hi rend='gesperrt'>Allgemeinen</hi> ein ungenügender gewesen ist. Es genüge
+hier, nur darauf hinzuweisen, daß viele der alten berühmten
+Weltkarten jener Zeit, z. B. die Karte der Militärbibliothek
+zu Weimar aus dem Jahre 1424, die von Andreas Bianco
+1436, des Genuesen Beclario oder Bedrazio aus dem Jahre
+1436, die Hafenkarten der beiden Benincasa 1463 bis 1473,
+des Bartholomäus, Bruder des Entdeckers von Amerika, aus
+dem Jahre 1488, des Juan de la Cosa, Reisegefährten von
+Columbus, des Ruysch in der römischen Ausgabe des Ptolomäus
+vom Jahre 1508, des Purdy u. s. w., nicht nur viele
+Irrthümer und falsche Breitenangaben, sondern öfters, z. B.
+die Karten des in der St. Marcusbibliothek aufbewahrten
+Atlas des Andreas Bianco u. s. w., gar keine Gradeintheilung
+haben. Man beeilte sich damals im Allgemeinen, auf den
+Karten alles Dasjenige zu verzeichnen, was man über den
+Fortschritt der neuesten Entdeckungen, gleichviel ob wahr oder
+unwahr, zu erfahren vermochte und so kam es, daß trotz der
+Ergebnisse neuer Forschungen und trotz aller Erfahrungen und
+Kenntnisse unserer Tage falsche Hypothesen und Resultate,
+z. B. auf der Karte Amerika’s von Ruysch und auf der sonst
+schätzenswerten Welttafel von Purdy, u. s. w. angegeben wurden.
+Wenn auch hier und da die Fehlergrenzen der spanischen
+und portugiesischen Piloten der damaligen Zeit bei Breitenangaben
+selten einen Breitengrad überschritten, so bestätigt
+wiederum das, was in dem Patent über die Unwissenheit der
+Piloten gesagt wird 
+(<foreign lang="la" rend='antiqua'>Navarr. tom. III. pag. 299</foreign>), voll<pb n='10'/><anchor id='Pg010'/>ständig 
+    Vespucci’s Klagen über den Mangel nautischer Kenntnisse
+bei den damaligen Seefahrern (<foreign lang="la" rend='antiqua'>Bandini p. 105</foreign>). Die
+von dem portugiesischen Schriftsteller Cordeyro in seiner <foreign lang="la" rend='antiqua'>Historia
+insulana</foreign> über den Nürnberger Seefahrer gemachten
+Mittheilungen sind mit Vorsicht aufzunehmen, erstlich weil
+Cordeyro, wie alle Portugiesen seiner Zeit, neidisch auf den
+Ruhm des Fremden war und zweitens, weil er auch sonst keine
+besondere Urtheilsschärfe und Genauigkeit in seinen Ausdrücken
+an den Tag legt, wie dies aus einer Vergleichung mit den
+Privatdokumenten der Familie Behaim, von denen er freilich
+nicht die geringste Kenntniß hatte, hervorgeht. So behauptet
+er unter Anderem in seiner <foreign lang="la" rend='antiqua'>Hist. ins. pag. 465</foreign>, daß Martin
+Behaim <hi rend='gesperrt'>zwei</hi> Söhne gehabt, von denen der älteste Martin
+geheißen und noch jung gestorben sei; ferner, daß die Portugiesen
+unter Joa Vaz Cortereal schon 1464 einen Theil von
+Nord-Amerika, die später sogenannte <foreign lang="pt" rend='antiqua'>Terra de Bacalhao</foreign>
+entdeckt hätten, und beruft sich unter Hinweisung auf <name rend='antiqua'>Gaspar
+Fructuosa</name> auf eine königl. Schenkungsurkunde <foreign lang="la" rend='antiqua'>d. d. Evora</foreign>
+2. April 1464, in der aber keine Silbe davon steht, daß Vaz
+das Bacalhaoland besucht oder überhaupt etwas entdeckt habe.
+Der zweimalige längere Aufenthalt des Behaim auf den Azoren
+(von 1486 bis 1490 und 1494 bis 1506) liefert aber gerade
+einen wichtigen Grund gegen die angebliche Entdeckung eines
+Landes der Baccallaos (Neufundland); denn Behaim, der,
+als langjähriger Bewohner der Azoren, doch Kenntniß von
+diesem Westlande hätte haben müssen, kennt diese Entdeckung
+<pb n='11'/><anchor id='Pg011'/>nicht und hat sie auch nicht auf seiner im Jahre 1492 angefertigten
+    Weltkugel angegeben. Kunstmann<note place="foot">Die Entdeckung Amerika’s mit einem Atlas bisher ungedruckter
+        Karten. München 1859.</note> hat auch in der
+neuesten Zeit schlagend nachgewiesen, daß die von Cordeyro
+erwähnte Entdeckung von Nord-Amerika weder in der angeführten
+Schenkungsurkunde von <name rend='antiqua'>Evora</name> noch in <name rend='antiqua'>Fructuosa</name>,
+aus dem doch Cordeyro geschöpft haben will, erwähnt werde.
+Historisch erwiesen ist nur, daß Gaspar Cortereal, der Sohn
+jenes Jao Vaz, im Jahre 1500 in Grönland und 1501 in
+Neufundland gewesen. Aus all dem Gesagten geht zur Genüge
+hervor, daß die gegen Martin Behaim angebrachten Verdächtigungen
+ohne allen Grund sind. Konnte es doch sogar einem
+Columbus geschehen, daß er die geographische Breite der von
+ihm im Jahre 1477 besuchten Insel Irland falsch bestimmte,
+indem er sagt, daß deren südlichste Gegend unter dem dreiundsiebzigsten
+Breitengrade (statt 63°) liege.
+</p>
+
+<p>
+    Martin Behaim, Schüler des Regiomontanus<note place="foot">Auch <name rend='antiqua'>Barros</name>, 
+        <name rend='antiqua'>Maris Dialogos</name>, der Verfasser der <foreign lang="la" rend='italic; antiqua'>Historia
+        insulana</foreign> und Andere sagen ausdrücklich, daß Behaim sich rühmte,
+        in Regiomontans Schule gelernt zu haben.</note> und
+portugiesischer Kosmograph hat für einen der gelehrtesten Mathematiker
+und Astronomen seines Jahrhunderts gegolten.
+Durch die Anfertigung seines Globus – wohl eines der ersten
+und ältesten, welche überhaupt existiren, den von Bartolomé
+<pb n='12'/><anchor id='Pg012'/>Colon 1488 vollendeten mit eingerechnet – hat er ein
+Meisterstück seiner Zeit geliefert und dadurch auf Globus- und
+Kompasverfertiger einen anregenden Einfluß geübt, was
+daraus zu entnehmen ist, daß diese in Nürnberg so zahlreich
+waren, daß sie seit 1510 zu einer besonderen Zunft zusammentraten.
+</p>
+
+<p>
+Der König Johann II., für den er mehre Landkarten
+zeichnete, beehrte ihn fortdauernd mit seinem besondern Vertrauen.
+Von seiner neunzehn Monate dauernden afrikanischen
+Reise nach Lissabon zurückgekehrt, wurde Behaim i. J. 1485
+zur Belohnung seiner Verdienste zu Albassauas (Alcobaca?)
+in der St. Salvadors-Kirche vom König öffentlich zum Ritter
+des Christusordens geschlagen, wobei ihm der Herzog Emanuel,
+nachheriger Thronfolger, den rechten Sporn, der König selbst
+den Degen umschnallte. Auch wurde er gemeinschaftlich mit
+den beiden Aerzten des Königs Johann II., <foreign lang="pt" rend='antiqua'>maestre Rodrigo</foreign>
+und <foreign lang="pt" rend='antiqua'>maestre Josef Judio</foreign>, zum Mitglied einer <foreign lang="pt" rend='antiqua'>Junta de
+Mathematicos</foreign> gemacht, welche beauftragt war, eine Methode
+    anzugeben, nach der Sonnenhöhe zu schiffen<note place="foot"><foreign lang="la" rend="antiqua"><hi rend='italic'>Barros. 
+        Asia</hi>, Dec. 1&#x2013;4, cap. 2.</foreign></note>, mithin
+an der Construction eines für den Gebrauch der Schifffahrt
+bestimmten <foreign lang="la" rend='antiqua'>Astrolabiums</foreign> arbeitete. Als Beweis eines ganz
+besondern Vertrauens, das Behaim beim König genoß, müssen
+hier ferner die Worte angeführt werden, deren sich der König
+<pb n='13'/><anchor id='Pg013'/>in einem Handschreiben bediente: 
+    „<foreign lang="la" rend='antiqua'>Quia perspecta nobis
+jam diu integritas tua nos inducit ad credendum,
+quod ubi tu es, est persona nostra</foreign>“ u. s. f. (weil wir
+schon lange Deine Ehrenhaftigkeit erkannt haben, so fühlen wir
+uns zu glauben veranlaßt, daß wo Du bist, auch unsere Person
+ist.) Auch Kaiser Maximilian sagt von seinen Reisen, die
+sich auf 2300 Meilen nur zur See erstrecken: <foreign lang="la" rend='antiqua'>Martino Bohemo
+nemo unus imperii civium magis unquam
+peregrinator fuit, magisque remotas adivit orbis
+regiones</foreign>. Zu den Hauptverdiensten Behaims gehört – abgesehen
+von seiner vermutheten Theilnahme an den amerikanischen
+Entdeckungsreisen, auf die wir sogleich zu sprechen
+kommen –, daß er an der glücklichen Erfindung, das Astrolabium
+bei der Schifffahrt zu <hi rend='gesperrt'>gebrauchen</hi>, wesentlichen Antheil
+hatte. Auch darf man nicht vergessen, wie von Humboldt
+in seinen kritischen Untersuchungen <foreign lang="la" rend='antiqua'>I., 
+    pag. 31</foreign>, bemerkt, daß
+Behaim, Columbus, Vespucci, Gama und Magellan Zeitgenossen
+von Regiomontanus, Paolo Toscanelli, Roderigo
+Faleiro und anderen <anchor id="corr13"/><corr sic="berühmte">berühmten</corr> Astronomen waren, welche
+ihre tieferen Einsichten den Schifffahrern und Geographen
+ihrer Zeit mittheilten.
+</p>
+
+<p>
+Die neueren Untersuchungen haben unwidersprechlich gelehrt,
+<hi rend='gesperrt'>daß</hi> der weit im westlichen Ocean lebende berühmte
+Kosmograph <hi rend='gesperrt'>Martin Behaim aus Nürnberg jedenfalls
+Columbus in seinem Plan, nach Westen zu
+segeln, bestärkt und wesentlich zur Ausführung
+<pb n='14'/><anchor id='Pg014'/>des Planes von Columbus beigetragen hat, somit
+für die Entdeckung Amerika’s von besonderem
+Nutzen gewesen ist.</hi> Die Gründe für diese Behauptungen
+stützen sich – abgesehen von naheliegenden Vermuthungen
+– auf <hi rend='gesperrt'>vier Thatsachen</hi>: I. auf die Aussagen
+der spanischen und portugiesischen Schriftsteller; II. auf das
+Buch der Chroniken von Hartmann Schedel in Nürnberg, das
+erst lateinisch, dann 1493 in deutscher Uebersetzung erschien;
+III. auf den i. J. 1492 von Martin Behaim angefertigten
+Globus, der sich noch gegenwärtig im Behaim’schen Hause am
+Aegidienplatze in Nürnberg befindet, und IV. auf die Behauptung
+des Ritters Pigafetta aus Vicenza, nach dem Magellan
+oder Magalhães eine Karte des Ritters Martin Behaim gesehen,
+auf welcher eine Meerenge nach der freien Südsee angegeben
+gewesen sei.
+</p>
+
+<p>
+In Bezug auf Nr. I. ist zu bemerken, daß der spanische
+    Schriftsteller <name rend='antiqua'>Antonio de Herrera</name> in seinen 
+    Decaden<note place="foot"><foreign lang="la" rend='antiqua'><hi rend='italic'>Herrera</hi>, 
+        dec. I, lib. I, cap. 2</foreign> und <foreign lang="la" rend='antiqua'>dec. II, lib. 2,
+            cap. 19</foreign>.</note>,
+deren Autorität so wenig in Zweifel gezogen werden darf, als
+die Handschrift des Pigafetta, sagt: <anchor id="corr14"/><corr sic='"Columbus'>Columbus</corr> sei in den
+Gründen, die ihn bestimmten, den Seeweg nach Ostindien
+gegen Westen aufzusuchen, durch seinen <hi rend='gesperrt'>Freund</hi>, den Portugiesen
+<name rend='antiqua'>Martin de Bohemia</name> (natürlich Niemand anders als
+Martin Behaim, dessen Familie, wie oben bemerkt, aus Böh<pb n='15'/><anchor id='Pg015'/>men 
+    stammt) auf der Insel Fayal, einen <hi rend='gesperrt'>großen</hi> Kosmographen,
+bestärkt worden. („<foreign lang="es" rend='antiqua'>Y esta opionione le confirmo
+Martino de Bohemia, Portugues, su amigo,
+natural de la Isla de Fayal, gran cosmografo.</foreign>“)
+Diese Nachricht, jedenfalls die wichtigste und bestimmteste, die
+schon allein hinreichte, nicht nur Behaims nützlichen Einfluß
+auf die Ausführung des Planes von Columbus zu beweisen,
+sondern auch die innige Verbindung mit Letzterem, sowie seinen
+Ruf als eines großen Kosmographen zu bestätigen, wird mehr
+oder minder noch durch eine zweite Stelle des genannten Schriftstellers
+bestärkt, die aus dem italienischen Tagebuche des Pigafetta
+entlehnt, auch den Ausdruck: „<foreign lang="it" rend='antiqua'>Martino de Boemia,
+uomo eccellentissimo</foreign>,“ jedoch ohne den Zusatz: geboren
+auf Fayal, enthält. Auch der spanische Schriftsteller <name rend='antiqua'>Garcilasso
+de la Vega</name> schreibt, daß ein berühmter Geograph
+Martin Behenira vornehmlich dem Colon Nachricht gegeben.
+Die vielbesprochene und im Interesse Behaims so oft angezogene
+Stelle im Werke des Riccioli<note place="foot"><foreign lang="la" rend='antiqua'><hi rend='italic'>Riccioli, 
+    Geographia rectific.</hi> lib. III, cap. 22, pag. 93.</foreign></note> (geb. 1598 zu Ferrara,
+gestorben 1671) heißt wörtlich: „<foreign lang="la" rend='antiqua'>Christophorus Columbus
+..... sive suopte ingenio ut erat vir Astronomiae
+Cosmographiae et Physicas, gnarus .. sive
+indicio habito a Martino Bohema .... aut, ut Hispani
+dictitant, ab Alphonso Sanchez de Helua
+nauclero ... cogitasset de navigatione in Indiam
+    <pb n='16'/><anchor id='Pg016'/>occidentalem</foreign>“ (Ch. Columbus hätte entweder aus eigener
+Einsicht als ein in der Sternkunde, Erdbeschreibung und Naturlehre
+erfahrener Mann oder zufolge der von Martin Behaim, oder
+nach der Spanier Vorgeben von einem Schiffer Namens Alfonso
+Sanchez erhaltenen Anzeige – Angabe – auf die Schifffahrt
+nach Westindien gedacht (gesonnen, sie für möglich gehalten).
+Diese Stelle, wie Wagenseil, Löher u. s. w. übersetzen zu wollen:
+„Columbus hätte niemals seine Reise nach Amerika unternommen,
+wenn Behaim ihm nicht den Weg gezeigt hätte“, ist
+jedenfalls, wie schon Tozen gezeigt, nicht statthaft, weil Riccioli
+selbst in Zweifel und Ungewißheit ist, was das <foreign lang="la" rend='antiqua'>sive-sive-aut</foreign>
+besagt und weil „<foreign lang="la" rend='antiqua'>indicio</foreign>“ nur mit „Wink“, „Fingerzeig“ oder
+mit „Andeutung“ „Anzeichen“ übersetzt werden kann. Diese
+Andeutungen, Anzeichen, können z. B. an den Azoren angeschwemmte
+Hölzer, Leichname u. s. w. gewesen sein, die auf
+ein westwärts gelegenes unbekanntes Land hindeuteten. Daß
+der Name Martin Behaims, wie von Murr behauptet, bei
+keinem einzigen portugiesischen Schriftsteller, außer im <name rend='antiqua'>Manoel
+Tellez de Sylva</name> in <foreign lang="la" rend='antiqua'>De Rebus gestis Joannis II.</foreign> vorkomme,
+dürfte dahin zu berichtigen sein, daß, wie schon erwähnt,
+Cordeyro und auch Jose Bernardo Gama von ihm
+spricht. „Die portugiesischen Schriftsteller“, sagt Franz Löher
+in seiner vortrefflichen Geschichte der Deutschen in Amerika
+(Cincinnati und Leipzig 1847) erklären auf das bestimmteste,
+daß Columbus erst, nachdem Behaim schon dagewesen, und
+auf dessen Angaben hin Amerika aufgesucht habe. So sagt
+    <pb n='17'/><anchor id='Pg017'/>Gama:<note place="foot"><foreign lang="pt" rend='antiqua; italic'>Jose 
+        Bernardo F. Gama. Memorias historias de Provincia
+        de Pernambuco I, 19.</foreign></note> „Martin Behaim sah Pernambuco und entdeckte
+    Brasilien früher als Columbus und <anchor id="corr17"/><corr sic="Vespuzzi.">Vespuzzi.“</corr> Die spanischen
+Schriftsteller<note place="foot"><foreign lang="es" rend='antiqua; italic'>Gomara, 
+    Histor. general. de las Indias, cap. 19 in
+    Barcia Histor. primit. de las Indas Occidentales. Madrid 1749.</foreign></note> 
+    aber enthalten nirgends eine Stelle, welche
+diese Angaben ausdrücklich widerlegte; im Gegentheil bestätigen
+sie ohne Vorbehalt, daß sowohl Columbus als Magellan
+Freunde von Behaim gewesen, von demselben Karten und
+Nachrichten über das westliche Indien erhalten, und auf Grund
+derselben ihre Reisen dorthin unternommen hätten. Auch französische
+Gelehrte<note place="foot"><foreign lang="fr" rend='antiqua'><hi rend='italic'>Archives 
+    literaires de l’Europe VI</hi>, 265&#x2013;375, 352&#x2013;362.</foreign></note> haben nicht gezögert, Behaim als den Mann
+anzuerkennen, der den Weg nach Amerika bereitete und zuerst
+befuhr. „In der That, seine Größe würde auch dann emporragen
+in der Geschichte, wenn seine Augen auch niemals an
+Brasiliens Küste umhergeschweift hätten; er wäre dennoch der
+geistige Entdecker des neuen Welttheils gewesen.“ Auch die
+portugiesischen Schriftsteller, Pater Cordeyro<note place="foot"><foreign lang="la" rend='antiqua; italic'>Historia 
+    insulana</foreign>.</note>, gestützt auf
+    das Manuscript des Doktor Gaspar Fructuosa<note place="foot"><foreign lang="pt" rend='antiqua; italic'>Saudades 
+        da Terra</foreign>.</note>, Mendo
+Trigozo (1812) und Garcao-Stockler (1819) u. s. w. geben
+ausführliche Nachrichten von Behaim und lassen seinen Verdiensten
+Gerechtigkeit wiederfahren. In Betreff der Deutschen,
+<pb n='18'/><anchor id='Pg018'/>welche Behaims Verdienste beleuchteten, schrieb Stüven in
+Frankfurt 1714 eine Abhandlung über den ersten Entdecker
+der Welt<note place="foot"><foreign lang="la" rend='antiqua; italic'>Joh. Fr. Stuvens. 
+    Dissertatio de vero Novi Orbis inventore.</foreign></note> und Otto in New-York richtete an Franklin
+eine Denkschrift (abgedruckt in den <foreign lang="en" rend='antiqua'>Transactions of the
+American philosophical Society 1786 II. Nr. 35</foreign>)
+zum Erweise, daß Behaim der rechte Mann sei. Diese Behauptung
+des Deutsch-Amerikaners, daß Behaim Amerika
+entdeckt habe, suchte der Spanier Cladera<note place="foot"><foreign lang="es" rend='antiqua; italic'>Investigationes 
+    historicas sobre los principales descubrimientos
+    de los Españoles en el mar Oceano del signo XV y
+    principios del <anchor id="corr18"/><corr sic="XVI">XVI.</corr> Madrid 1794.</foreign></note> zu widerlegen.
+    Auch Wagenseil<note place="foot"><foreign lang="la" rend='antiqua; italic'>Wagenseil Synops. 
+        Hist. Universal. Wagenseilii Sacra
+        parentalia B. Georgio Frid. Behaimo dicata.</foreign></note> und Postel<note place="foot">Schon 
+            Postel sagt in seiner im Jahre 1561 erschienenen
+            <foreign lang="la" rend='antiqua'>Cosmographia pag. 22</foreign>: <foreign lang="la" rend='antiqua'>Ad 
+                54 grad</foreign> (südl. Breite) 
+            <foreign lang="la" rend='antiqua; italic'>ubi est
+            Martini Bohemi fretum a Magaglianesis alias nuncupatum</foreign>.</note>, Pigafetta, Jansen, 
+    Doppelmayr<note place="foot">Histor. Nachr. von Nürnberger Mathematikern und Künstlern,
+        Nürnberg 1780, Fol., worin auch Behaims Erdkugel abgebildet
+        und S. 27 bis 31 eine Beschreibung von Behaims Leben
+        gegeben ist.</note>,
+    Wurzelbaum<note place="foot"><foreign lang="la" rend='antiqua; italic'>Uranies Noricae Basis astronomico geographica 1697
+    fol. In epistola dedicatoria.</foreign></note>, 
+    Lochner<note place="foot"><foreign lang="la" rend='antiqua; italic'>D. Mich. Friedr. Lochner. 
+        Comment. de Ananasa sive
+        nuce pinea indica etc. Norimb. 1716.</foreign></note>, 
+    Wülfer<note place="foot"><foreign lang="la" rend='antiqua; italic'>Jo. Wülfer in 
+    Disquisitione de majoribus Oceani Insulis.</foreign></note>, 
+    Cellarius<note place="foot"><foreign lang="la" rend='antiqua; italic'>Christoph Cellarius in Hist. Univers.</foreign></note>,
+    <pb n='19'/><anchor id='Pg019'/>Omeis<note place="foot"><foreign lang="la" rend='antiqua; italic'>Magnus 
+        Daniel Omesius de claris quibusdam Norimbergensibus.</foreign></note>, haben Martin Behaim die Entdeckung der neuen
+Welt zugeschrieben, und die Herren Chr. Gottl. 
+Schwarz<note place="foot"><foreign rend='antiqua'><hi rend='italic'>Diss. de columnis Herculis. Altdorfii 1794.</hi> 
+    4. §. ult.</foreign>
+    Papowitsch hat in seinen Untersuchungen vom Meere (Nürnb. 1750)
+    S. 31 auch diesen Paragraph erläutert.</note>,
+    Mörl<note place="foot"><foreign lang="la" rend='antiqua; italic'>Dom. Joh. Siegism. Mörlii orat. inaug. 
+        de meritis Norimbergensium
+        in Geographiam.</foreign> Sie steht im <foreign lang="la" rend='antiqua'><hi rend="italic">Museo Norico</hi> p. 125.
+        Altd. 1759.</foreign></note>, Bielefeld<note place="foot"><foreign lang="fr" rend='antiqua'><hi rend='italic'>De 
+            Bieléfeld Progrés des Allemands dans les Sciences etc.
+                Chap. 3 des Inventions et des Decouverts des Allemands. Amsterdam
+                1752.</hi> 13. pag. 72&#x2013;76.</foreign></note>, 
+    Fürer<note place="foot"><foreign lang="la" rend='italic; antiqua'>Joh. Sigism. Fureri 
+        oratio de Martino Behaimo</foreign> im <foreign rend='antiqua; italic'>Museo
+        Norico</foreign> S. 385&#x2013;400.</note>, Will, Peter van der Aa<note place="foot">Im 
+            Nürnberger Gelehrten Lexikon <foreign lang="la" rend='antiqua'>I. pag. 35</foreign> und in den
+                Münzbelustigungen.</note> u. A.
+sagen in der Hauptsache Nichts Anderes. Die Amerikaner
+Robertson<note place="foot"><foreign lang="en" rend='antiqua'><hi rend='italic'>Robertson 
+    History of the Discov. and <anchor id="corr19"/><corr sic="Settlem">Settlem.</corr> of Americ.</hi>
+    New-York 1829.</foreign></note>, 
+    Washington Irving<note place="foot"><foreign lang="en" rend='antiqua'><hi rend='italic'>Washington Irving 
+        Life and Voyages of Christ. Columbus.</hi>
+        New-York 1831, II.</foreign> Appendix 267&#x2013;270.</note> u. A. wollen dies freilich
+nicht anerkennen, ebenso als sie früher die (jetzt festgestellten)
+Entdeckungen der isländischen Nordmänner hartnäckig bestritten,
+und in Deutschland selbst sind bei Manchen z. B. Gebauer<note place="foot">Gebauer, Portugiesische Geschichte.</note>,
+    <pb n='20'/><anchor id='Pg020'/>Tozen<note place="foot">Der erste Entdecker der neuen Welt, Christoph Colon,
+        gegen die ungegründeten Ansprüche, welche Amerikus Vespucci
+        und Martin Behaim auf diese Ehre machen, von E. Tozen.
+        Göttingen 1761.</note>, 
+    von Murr<note place="foot">Diplomatische Geschichte Behaims von v. Murr. Nürnb.
+        1778 (aus dem 6. Theil seines Journals zur Kunstgeschichte besonders
+        abgedruckt); zweite verbesserte Auflage Gotha 1801. Die
+        erste Ausgabe ist von J. Jansen in’s Französische <anchor id="corr19-2"/><corr sic="übersetzt">übersetzt.</corr> Die
+        zweite kam mit der französischen Uebersetzung von <name rend='antiqua'>Pigafetta’s</name>
+        italienischer Schifffahrtsbeschreibung <name rend='antiqua'>Magellans</name> zu Paris 1801 ein.
+        Die dritte ist vom Verf. selbst zu Straßburg und Paris 1802
+        herausgegeben. Mit Abbildungen der Erdkugel Behaims.</note>, 
+    Baur<note place="foot">Allgem. Encyclopädie der Wissenschaften und Künste von
+        J. G. Ersch und J. G. Gruber. Leipzig 1822. s. Behaim.</note> u. A. die Zweifel noch nicht
+    beseitigt. Wenn wir hier noch die Werke von Humboldt<note place="foot">Kritische 
+        Untersuchungen über die historische Entwickelung
+        der geographischen Kenntnisse in der neuen Welt von Alexander
+        v. Humboldt, aus dem Französischen übersetzt von Dr. J. L. Ideler.
+        Berlin 1836. 3. Bd.</note>,
+    Franz Löher<note place="foot">Geschichte und Zustände der Deutschen in Amerika von
+        Franz Löher, Cincinnati und Leipzig. 1847 S. 3&#x2013;8. Nach dem
+        Verf. sah Martin Behaim Amerika auf einer seiner südwestlichen
+        Entdeckungsreisen im J. 1483, zehn Jahre früher, ehe Columbus
+        sich zur Reise anschickte.</note>, Ghillany<note place="foot">Geschichte des 
+            Seefahrers Ritter Martin Behaim von Dr.
+            F. W. Ghillany. Eingeleitet durch eine Abhandlung über die
+            ältesten Karten des neuen Continents und den Namen von Amerika
+            von Alexander v. Humboldt. Nürnberg 1853. Mit einer
+            genauen Abbildung des Behaim’schen Globus vom Jahr 1492.</note>, 
+    Oscar Peschel<note place="foot">Geschichte des Zeitalters der Entdeckungen von Oskar Peschel.
+        Stuttgart und Augsburg 1858, Cotta. Dieses Werk gereicht der deutschen Wissenschaft zur Ehre 
+        und gehört ohne Frage
+        zu den bedeutendsten wissenschaftlichen Arbeiten unseres Jahrzehends.
+        Die Entdeckungen der Portugiesen sind meisterhaft und
+        mit großem Scharfsinn zusammengestellt; s. Behaim S. 28, 38,
+        76, 80, 82, 88, 89, 90, 92, 101, 126, 127, 129, 131, 616&#x2013;620
+        u. s. w.</note> und Fr. Kunst<pb n='21'/><anchor id='Pg021'/>mann<note place="foot">Die 
+            von der Münchner Akademie veranstaltete Ausgabe
+            alter unbekannter Karten aus der Zeit der Entdeckung besorgten
+            Fr. Kunstmann und G. M. Thomas, und der erstere hat uns
+            einen Commentar und eine vortreffliche Arbeit über die Entdeckung
+            Amerika’s geliefert. (Die Entdeckung Amerika’s in einem Atlas
+            bisher ungedruckter Karten. München 1859.)</note> anführen, 
+    so glauben wir, wenn auch nicht erschöpfend,
+doch ziemlich vollständig auf die Behaim-Literatur
+hingewiesen zu haben, und wollen nur noch bemerken, daß in
+dem Werke von Ghillany – das neueste bedeutendste Werk
+über Behaim – in sehr lichtvoller Weise dargethan wird,
+daß Behaim wesentlich zur Ausführung des Planes von Columbus
+beigetragen habe.
+</p>
+<milestone unit="tb"/>
+<p>
+Wir kommen jetzt II. auf das Buch der Chroniken von
+Hartmann Schedel in Nürnberg, das erst lateinisch, dann
+1493 in deutscher Uebersetzung erschien, somit die nächste
+Jahreszahl nach der Entdeckung Amerikas durch Columbus
+trägt.
+</p>
+
+<p>
+Es heißt hier, daß König Johann II. von Portugal im
+Jahre 1483 <name rend='antiqua'>Jacob de Cano</name>, einen Portugiesen, und Martin
+Behaim, einen Deutschen aus Nürnberg, mit etlichen Galeeren
+<pb n='22'/><anchor id='Pg022'/>gegen Aethiopien ausgeschickt hätte; daß sie in dem südlichen
+Meere nicht weit von der Küste geschiffet, und nachdem sie
+über die Linie gegangen, in die <hi rend='gesperrt'>andere Welt gekommen
+wären, wo ihr Schatten, wenn sie gegen Morgen
+gestanden, mittagwärts und zur Rechten gefallen
+sei</hi>; daß sie solchergestalt eine <hi rend='gesperrt'>neue und bisher unbekannte
+Welt</hi>, welche in vielen Jahren von keinem als
+den Genuesen, wiewohl vergeblich, gesucht worden, entdeckt
+und daß sie endlich nach einer 26monatlichen Schifffahrt zurückgekommen
+und zum Wahrzeichen Pfeffer und Paradieskörner
+mitgebracht <anchor id="corr22"/><corr sic='hätten."'>hätten.</corr>
+</p>
+
+<p>
+Wiewohl in dieser Stelle thatsächlich von <hi rend='gesperrt'>einer anderen
+neuen Welt</hi> die Rede ist und man auch auf Grund
+dieser Urkunde versucht hat, dem Martin Behaim die Ehre der
+Entdeckung von Amerika (Brasilien) zuzuschreiben, indem man
+angenommen hat, daß Behaim, wie später Cabral, durch die
+von Congo nach Westen führenden Strömungen nach Brasilien
+gelangt sei, und daß der Verfasser jener Stelle in der Nürnberger
+Chronik, wenn er schon von Columbus etwas gewußt,
+sicher dessen Namen genannt haben würde, um den Ruhm
+Behaim’s gegen ihn herauszustellen, so scheint mir doch diese
+Urkunde aus folgenden Gründen von keinem sonderlichen Gewicht
+zu sein. Die angeführte Stelle ist nämlich dieselbe,
+welche in des <name rend='antiqua'>Aeneas Sylvius</name> Buch <foreign lang="la" rend='antiqua; gesperrt'>de Europae sub
+Frederico III. Imperatore statu</foreign> aus diesem
+Chronikon eingerückt ist. Dieser <name lang="la" rend='antiqua'>Aeneas Sylvius</name>, nach<pb n='23'/><anchor id='Pg023'/>heriger 
+    Pabst Pius II. (gest. 1464), ist übrigens derselbe, der
+    sich in seiner Weltbeschreibung (<foreign lang="la" rend='antiqua; gesperrt'>Cosmographia</foreign>) auf
+<name rend='antiqua'>Nicolo Conti</name> beruft, dessen 25jährige Reisen (1424 bis
+1449) in Indien bei <name rend='antiqua'>Poggio</name> (Paris 1723) erwähnt werden.
+Aber, auch abgesehen davon, so will der Verfasser offenbar
+nur andeuten, daß diese Seefahrer, nachdem sie über die Mittellinie
+gesegelt, auf die südliche Halbkugel der Erde gekommen
+wären; die Angabe, daß nach Passirung der Linie der Schatten,
+wenn man gegen Morgen stehe, mittagwärts und zur
+Rechten falle, wird wohl jeder richtig finden, der über die Linie
+hinausgekommen ist. Im Uebrigen ersehen wir aus diesem
+Buch der Chroniken, in das Behaim das Capitel <foreign lang="la" rend='antiqua'>Portugalia</foreign>
+bei seiner in Nürnberg als Kosmograph gefeierten Anwesenheit
+vielleicht selbst eingetragen hat, daß er als Befehlshaber
+eines Fahrzeuges jene Entdeckungsreise mitgemacht habe, wenn
+er auch dieß selbst auf seiner Weltkugel niemals behauptet.
+Die betreffende Stelle heißt: „daß König Johann etlich galeren
+hinter die seulen Herkuls geschickt und denselben Schiffen zween
+patron gesetzt, nehmlich <name lang="la" rend='antiqua'>Jacobum Canum</name> einen <hi rend='antiqua'>Portugalier</hi>
+und <name rend='antiqua'>Martin beheym</name> einen <hi rend='antiqua'>teutschen von nürnberg</hi>.“
+Es ließe sich vielleicht nun aus dieser Stelle der
+Schluß ziehen, daß Behaim, da er <hi rend='gesperrt'>Entdeckungsreisen</hi>
+nach Afrika und zwar als Befehlshaber gemacht, wahrscheinlich
+auch später mehren Entdeckungsreisen nach Westen beigewohnt
+hat.
+</p>
+
+<milestone unit="tb"/>
+<pb n='24'/><anchor id='Pg024'/>
+        <p>
+Was III. den von Martin Behaim im Jahre 1492
+zu Nürnberg angefertigten und daselbst noch aufbewahrten
+Globus betrifft, so haben manche Schriftsteller behaupten wollen,
+daß auf demselben bereits die Menge der westlichen Inseln
+und die östlichen Küsten von Süd-Amerika (die Flachlande von
+Brasilien, die Prajas von Pernambuco) erschienen, wohin
+Behaim viele Jahre früher, ehe Columbus sich zur Reise anschickte,
+von den Azoren aus gekommen sein soll. Man glaubte
+hieraus schließen zu können, daß Martin Behaim den Archipel
+der Azoren oder Antillen entdeckt, dem Columbus nicht allein
+den Weg nach dem östlichen Asien, sondern selbst das Vorhandensein
+eines neuen Festlandes enthüllt und auf diesen
+Globus die Meerenge verzeichnet habe, welcher Magellan seinen
+Namen gegeben und die man mit größerem Rechte <foreign lang="la" rend='antiqua; gesperrt'>Fretum
+Bohemicum</foreign> nennen zu können glaubte.
+</p>
+
+<p>
+Bei näherer Betrachtung der höchst merkwürdigen Erdkugel
+findet sich von diesen geographischen Angaben keine
+Spur auf derselben, womit jedoch nicht gesagt sein soll, daß
+eine <hi rend='gesperrt'>kühne</hi> Phantasie, abgesehen von der deutlich verzeichneten
+    <foreign rend='antiqua; gesperrt'>Insula Antilia</foreign>, durch die Lage der über dem 
+    <foreign lang="la" rend='antiqua; gesperrt'>circulus
+aequinoctialis</foreign> (Aequator) angegebenen Insel
+    Brandan, der im Norden des <foreign lang="la" rend='antiqua; gesperrt'>tropicus cancri</foreign> 
+    <anchor id="corr24"/><corr sic="verzeichzeichneten">verzeichneten</corr>
+Insel (<foreign lang="la" rend='antiqua'>Cathay, <hi rend='gesperrt'>oceanus oriental. indic.</hi></foreign>),
+so wie der südlicher gelegenen Insel Cipango, nicht im Stande
+wäre, an die West-Indischen Inseln oder an Süd-Amerika zu
+denken – wenn man sich dieselben theils noch als Inseln,
+<pb n='25'/><anchor id='Pg025'/>theils als mit Ost-Indien zusammenhängend denkt. Nach dem
+geographischen System jenes Zeitalters, welches in Bezug auf
+das östliche Asien nebst den angrenzenden Theilen des Oceans
+fast einzig und allein auf die Erzählungen des Marco Polo,
+Balducci Pegoletti und Nicolas de Conti begründet war,
+glaubte man, daß unzählige Inseln, reich an Spezereien
+und Gold, in dem Meer von Cin, d. h. in den Gewässern
+von Japan, China und dem großen Archipelagus Ostindiens
+belegen seien. Die Weltkarte des Martin Behaim zeigt nun
+von 45° nördl. bis 40° südl. Br. eine Kette von Inseln,
+die den Enden Asiens gegenüber liegen und ist mehrfach, wie
+wir früher bemerkt, abgebildet, unter Anderem auch im Jahre
+1847 von dieser Erdkugel des Behaim ein Facsimile für die
+Pariser Akademie angefertigt worden.
+</p>
+
+<p>
+Auf dem von Martin Behaim angefertigten Globus
+findet sich mitten im Ocean zwischen Europa und Asien eine
+    <foreign lang="la" rend='antiqua; gesperrt'>insula Antilia</foreign>, genannt 
+    <foreign lang="la" rend='antiqua; gesperrt'>Septem ritade (citade)</foreign>,
+verzeichnet. Sie liegt westlich der Canaros, fern von
+den Azoren in 24° Br., also fast unter dem Wendekreise des
+Krebses. Ueber die „Länge“ zu sprechen ist überflüssig, da
+diese von den verwirrten Begriffen abhängig ist, die man sich
+von der Entfernung zwischen Ouinsai und Cipango und den
+Küsten von Portugal bildet, man kann sich aber des Gedankens
+unwillkürlich nicht erwehren, daß diese „phantastische Wanderinsel“
+so ziemlich fast unter denselben Breitengraden wie die
+später als Antillen bezeichneten Inselgruppen gelegen ist, und
+<pb n='26'/><anchor id='Pg026'/>zwar um so mehr, als auf der Karte von <name rend='antiqua'>Juan de la Cosa</name>
+aus dem Jahre 1500 die zu dieser Gruppe gehörigen Inseln
+Cuba, Espagnola auch noch nördlich des Wendekreises des
+Krebses liegen, auch Vespucci in seiner zweiten Reisebeschreibung
+(<foreign lang="la" rend='antiqua'>Bandini pag. 44</foreign>.) Haiti 
+    <foreign lang="la" rend='antiqua; gesperrt'>(Hispaniola) Isola
+d’Antiglia</foreign> nennt und, wie uns <name rend='antiqua'>Bartholomäus de las
+Casas</name> lehrt, vorzugsweise die Portugiesen den Namen Antillen
+auf <name rend='antiqua'>Hispaniola</name> anwendeten. Diese von Behaim verzeichnete
+Insel findet sich auch auf früheren Karten des vierzehnten
+Jahrhunderts, wenn auch nicht in dieser Lage, angegeben.
+Die älteste Angabe der Insel Antillia scheint nach
+von Humboldt’s kritischen Untersuchungen die im venetianischen
+Atlas des <name rend='antiqua'>Andrea Bianco</name> (1436) zu sein, wo sie sich
+auf der fünften Karte des in der St. Markusbibliothek aufbewahrten
+Werkes findet. Wenn man, da die Karte keine
+Gradeintheilung hat, als Maßstab die Entfernung des Cap
+Vincent vom Cap Finisterre (5° 51') annimmt, so findet
+man als Abstand der Küsten von Portugal bis zum Mittelpunkt
+der azorischen Insel des Bianco 153 Seemeilen (statt
+247), dagegen als Abstand der Azoren von der Antillia 87
+Seemeilen. Diese letztere Insel läge mithin 240 Seemeilen
+westlich von den Küsten von Portugal, d. h. unter 27° 55'
+w. L. von Paris (in dem Meridian der Insel San Miguel
+der Azoren) und zwischen 33° 20' und 38° 30' Br. Auch
+die auf der Militärbibliothek in Weimar aufbewahrte Seekarte
+aus dem Jahre 1425 (1424?), einige Jahre älter als die
+<pb n='27'/><anchor id='Pg027'/>Karte des Bianco und offenbar italienischen Ursprungs, ist
+wegen des Namens Antillia bemerkenswerth. Sie stellt aber
+nur den nördlichen Theil der Insel Antillia, dagegen das
+ganze Rechteck der Satanshand dar. Der Abstand der Küste
+von Portugal vom Mittelpunkt der Gruppe der Azoren beträgt
+110 Seemeilen, während die Karte vom Jahre 1436, wie
+oben bemerkt, deren 153 gibt. Auf der zu Parma sich befindenden
+Welttafel von Beclario oder Bedrazio, einem Genuesen
+aus dem Jahre 1436, erblickt man auch die rechtwinkeligen
+Inseln Antillia und Sarastagio (Hand des Satans). Die
+Hafenkarten des Gracioso Benincasa von Ancona und seines
+Sohnes Andrea (1463 bis 1473) wurden auch häufig wegen
+des Namens der Insel Antillia angeführt, der sich auf ihnen
+finden soll; aber es scheint, daß man eine weit jüngere von
+Blaze Vouloudet im Jahre 1586 angefertigte Karte, auf der
+man westlich von Irland ein Land Scorafixa oder <name rend='antiqua'>Scoeafixa</name>
+(Bacallaos?) erblickt, für eine Arbeit des Andrea Benincasa
+gehalten hat.
+</p>
+
+<p>
+Auf den Karten des <name rend='antiqua'>Juan de la Cosa</name> und <name rend='antiqua'>Ribero</name>
+findet sich keine Spur von dem Namen der Antillen, auch auf
+der zu Parma aufbewahrten Weltkarte des Picigano (1367)
+kommt die Bezeichnung Antillia nicht, wohl aber, wie auf
+Behaim’s Globus, die <name rend='antiqua'>Insula de Brazie (Brazir, Brazil)</name>
+vor. Die Insel des heiligen Brandan, die Behaim’s Globus
+ebenfalls angibt, nennt Andrea Bianco so wenig wie die
+Glückseligen Inseln. Auch ist bemerkenswerth, daß weder
+<pb n='28'/><anchor id='Pg028'/>Columbus, noch Gomara, Oviedo oder Acosta, noch die Karten
+von Amerika und die Welttafeln, welche seit dem Jahre
+1508 den Ausgaben des Ptolamais beigefügt werden, des
+Namens Antillia gedenken. Die erste Spur dieses Gebrauches
+des Namens findet von Humboldt in den <foreign lang="la" rend='antiqua'>Oceanis</foreign> des <name rend='antiqua'>Peter
+Martyr d’Anghiera</name> (<foreign lang="la" rend='antiqua'>Dec. lib. I. pag. II.</foreign> beendigt
+im Novbr. 1493). Hier findet man die geographische Benennung
+der Antillen in der Mehrzahl. Aber noch mehr;
+das einzige Mal, wo man in den Briefen des <name rend='antiqua'>Amerigo Vespucci
+(c. 1500)</name> den Namen Columbus findet, steht er in
+Verbindung mit dem Namen Antillia, obgleich Columbus nie
+die Gesammtmasse der von ihm entdeckten <hi rend='gesperrt'>Inseln von Inseln</hi>
+unter eine gemeinschaftliche Benennung zusammenstellt.
+Uebrigens ist es mit dem Namen der Antilleninseln gegangen
+wie mit dem von Amerika. Der erstere wurde im Jahr 1493
+von Anghiera vorgeschlagen, der letztere von Ylacomylus, und
+bei beiden war mehr als ein Jahrhundert erforderlich, ehe der
+Gebrauch allgemein verbreitet war.
+</p>
+
+<p>
+Martin Behaim schreibt bei der Insel Antillia Folgendes:
+„Als man zählt nach Christi Geburt 734 Jahre, als ganz
+Hispania von den Heiden aus Afrika genommen war<note place="foot">Behaim 
+    setzt die Auswanderung „des Erzbischofs von
+    <name rend='antiqua'>Porto Portigal</name>“ nach der Insel <name rend='antiqua'>Antilia</name> oder 
+    <name rend='antiqua'>Septen citade</name>,
+    die Insel der sieben Städte genannt, in das Jahr 734, während
+    Columbus das Jahr 814 – die Epoche der Schlacht angiebt,
+    welche Musa an den Ufern des Guadalete gewann.</note>, da
+    <pb n='29'/><anchor id='Pg029'/>wurde bewohnt die oben beschriebene 
+    <foreign lang="la" rend='antiqua; gesperrt'>insula Antilia</foreign>,
+    genannt <foreign lang="la" rend='antiqua; gesperrt'>Septem ritade</foreign>, von einem Erzbischof von
+<name rend='antiqua'>Porto Portigal</name> mit sechs anderen Bischöfen, die zu Schiffe
+von Hispania dahin geflohen kamen mit ihrem Vieh, Hab’
+und Gut. <foreign lang="la" rend='antiqua'>Anno</foreign> 1414 ist ein Schiff aus Hispania ungefähr
+am nächsten dabei gewesen.“ Diese Angabe der Insel Antillia
+ist ein Beweis, daß allerdings Martin Behaim, wenn er auch
+nicht selbst auf dieser Insel gewesen, doch Nachrichten, Kenntnisse,
+Anzeichen (<foreign lang="la" rend='antiqua; gesperrt'>indicia</foreign>) von einem im Westen liegenden
+Lande gehabt haben muß. Diese können ihm durch Schiffer
+(und die Angabe unter 1414 weist darauf hin), durch Schiffbrüchige
+oder durch an die Ufer der Azoren angeschwemmte
+Gegenstände geworden sein, z. B. durch Fichtenstämme an den
+Küsten von Graciosa und Fayal, durch Leichname unbekannter
+Menschenracen an der Insel Flores, durch Stücke künstlich
+aber ohne eiserne Werkzeuge geschnitzten Holzes an der Insel
+Porto Santo und selbst durch Canots, die mit Häuten bedeckt
+und mit Menschen von einem gänzlich unbekannten Stamm
+besetzt gewesen, von welchen Gegenständen auch die Zeitgenossen
+des Columbus (s. <foreign lang="es" rend='antiqua'><hi rend='gesperrt'>Vida del Almirante</hi>, cap. 8
+pag. 6</foreign>) mit der kleinlichsten Genauigkeit reden und die auch
+von Columbus als Zeichen von Land im Westen betrachtet
+wurden. Sein Sohn Fernando sagt in der That: „Die Bewohner
+(<foreign lang="es" rend='antiqua; gesperrt'>moradores</foreign>) erzählten meinem Vater, daß während
+die Winde vom Westen wehten ...“ aber der Admiral
+konnte diese Nachricht in irgend einem Hafen Portugals oder
+<pb n='30'/><anchor id='Pg030'/>Spaniens erhalten, da wir, wie v. Humboldt bemerkt, mit
+    Bestimmtheit aus der Handschrift der <foreign lang="es" rend='antiqua; gesperrt'>Historia de las
+Indias</foreign> von <name rend='antiqua'>Las Casas</name> wissen, daß Columbus in Spanien
+im Kloster von Rabida die Reise des Pedro Velasco aus Palos
+kennen lernte, welcher von Fayal abgereist, nach einer Schifffahrt
+gegen Westen bis zu einer Entfernung von 150 Lieues
+(wonach er bis jenseits des östlichen Punktes des großen
+Tangstreifens gelangt sein müßte) die Insel Flores entdeckte.
+Auch ist es bei den großen astronomischen Kenntnissen Behaims
+wahrscheinlich, daß derselbe überzeugt gewesen sein muß, daß
+westlich von den Azoren noch andere Küsten anzutreffen seien,
+denn sonst hätte er wohl nicht den König von Portugal 
+veranlaßt,<note place="foot"><foreign lang="la" rend='antiqua'><hi rend='gesperrt'>Herrera</hi>, cap. VII.</foreign> und 
+    <name rend='antiqua'>Gaspar Fructuosa</name> in seiner
+    <name rend='antiqua; italic'>Historia insulana</name>.</note>
+ehe noch Columbus seine Absichten erreicht, Expeditionen
+auszuschicken, um die Antillen zu entdecken, die freilich
+zurückkehrten, ohne ihren Zweck erreicht zu haben. Und
+dann, sollten nicht die Westwinde und insbesondere der aus
+dem Golf von Mexiko kommende, an der Ostküste von Nordamerika
+sich hinziehende und in der Richtung nach den Azoren
+laufende, südöstliche Auslauf des <hi rend='gesperrt'>Golfstromes</hi> dem auf der
+über ein Dritttheil des Weges nach Amerika in den Atlantischen
+Ocean hineingeschobenen Insel Fayal lebenden großen
+Seefahrer und Kosmographen die Lage des westlich gelegenen
+Landes verrathen haben?
+</p>
+
+<pb n='31'/><anchor id='Pg031'/>
+<p>
+So gewiß die Möglichkeit nicht gänzlich geleugnet werden
+kann, daß durch die Gewalt der Winde, die häufig mächtiger
+ist als die der Strömungen, phönizische und karthaginensische
+Schiffe, die für den Handel mit Zinn und Bernstein verwendet
+wurden, auf ihrem Wege durch den <foreign lang="la" rend='antiqua; gesperrt'>Sinus Oestrymnicus</foreign>
+verschlagen und an die Küste der Azoren geworfen
+wurden, daß ferner die Araber und die Normanen die azorischen
+Inseln besucht haben und daß sie von der Küste Siciliens
+und Tunis punische und cyrenäische Münzen mit sich haben
+führen können – so gewiß ist auch nicht zu leugnen, daß Columbus,
+zwischen dem und Behaim höchst wahrscheinlich Beziehungen
+stattgefunden haben, obgleich sie durch nichts unmittelbar
+nachgewiesen werden können, früher einmal zu Fayal
+gelandet sein könne und daß Behaim, der geraume Zeit daselbst
+gelebt, alle Anzeichen und Erfahrungen von westlich liegenden
+Ländern gesammelt habe. Auch wollen wir hier die Vermuthungen
+der portugiesischen Seefahrer anführen, welche vor
+und nach 1484 – das Jahr, in welchem Colon Portugal
+verläßt – die Gewässer außerhalb der Azoren besucht hatten.
+Hierher gehört 1) die Reise eines gewissen Diego de Tiene
+(Teyve?) zur Aufsuchung der <name rend='antiqua'>Antillia</name>, dem als Pilot der
+obengenannte Pedro de Velasco diente, derselbe Seemann,
+welcher dem Admiral Don Colon im Kloster La Rabida bei
+Palos von dieser Reise erzählte; 2) die Reise des Ferdinand
+Dulmo (d’Ulmo, aus Ulm?), eines Capitäns der Terceira und
+Joh. Affonso, eines Pflanzers von Madeira, die eine Gesell<pb n='32'/><anchor id='Pg032'/>schaft 
+    mit einem <hi rend='gesperrt'>deutschen</hi> Ritter gebildet hatten, um eine
+große Insel oder das Festland im atlantischen Westen zu entdecken,
+wobei man voraussetzte, daß die <foreign lang="pt" rend='antiqua; gesperrt'>Ilha da sete
+cidades</foreign> (Insel der sieben Städte) und das Festland nicht
+    unter 40 Tagen erreicht werden möchten. <foreign lang="pt" rend='antiqua; gesperrt'>E quanto ao
+Cavaleiro aleman</foreign>, heißt es in der Urkunde vom
+    24. Juli 1486 pag. 66, <foreign lang="pt" rend='antiqua; gesperrt'>que em companhia delles
+ha de hir, que elle aleman escolha dir em
+qualquer caravella que quizer</foreign>. „Der deutsche
+Ritter, bemerkt Peschel in seinem vortrefflichen Buche S. 617,
+ist <hi rend='gesperrt'>höchstwahrscheinlich</hi> Martin Behaim, obgleich es viele
+Deutsche damals in Portugal gab. Ueber die Erfolge dieser
+Reise sind wir bis jetzt nicht unterrichtet.“ 3) Die nach portugiesischen
+Quellen i. J. 1464 gemachte, aber durch nichts
+bewiesene, oben erwähnte Entdeckung eines Theiles von Nord-Amerika,
+die später sog. <foreign lang="pt" rend='antiqua'>Terra do Bacalhao</foreign>, durch den
+portugiesischen Seefahrer Joa Vaz Cortereal. Dazu gesellten
+sich noch die Vermuthungen von Land und Inseln, welche die
+Bewohner von Madeira, von den Canarien und auf den Azoren,
+jedes Jahr im fernen Westen auftauchen zu sehen glaubten,
+und die Aussagen dieser und jener Steuerleute, die versicherten,
+bei ihren Ueberfahrten nach Irland im Westen Land
+gesehen zu haben, welches sie für einen Theil der Tartarei
+u. s. w. ausgaben. So vorbereitet waren die Gemüther auf
+große Dinge worden und das 16. Jahrhundert hätte sicherlich
+auch ohne Colon’s Plan schon frühzeitig gefunden, da der
+<pb n='33'/><anchor id='Pg033'/>Gedanke durchaus nicht mehr neu war, daß man bei der unbestrittenen
+Annahme der Erde als kugelförmiger Körper recht
+wohl den Ostrand Asiens durch eine atlantische Ueberfahrt
+erreichen könnte. Hiermit soll aber der Ruhm des Genuesers,
+dessen Verdienst in der <hi rend='gesperrt'>absichtsvollen</hi> Entdeckung neuer
+Seewege besteht, und dessen That die große Begebenheit um
+einen kostbaren Zeitraum beschleunigte, durchaus nicht herabgesetzt,
+zu gleicher Zeit aber auch das Verdienst seiner Zeitgenossen
+nicht unterschätzt werden, welche zur Lösung der Aufgabe
+mit beigetragen und Columbus in seinem Plan, nach
+Westen zu segeln, mit angeregt und bestärkt haben. Und wer
+wäre hierzu geeigneter gewesen, als sein Freund, der berühmte
+Seefahrer Martin Behaim, der auf der (wie schon bemerkt)
+über ein Dritttheil des Weges nach Amerika weit im Ocean
+liegenden Insel Fayal – dem Thule der gebildeten Welt –
+schon mit Einem Fuße in der Neuen Welt stand?
+</p>
+
+<p>
+Die Azoren, von den Portugiesen seit 1432&#x2013;1449
+nach und nach entdeckt und in portugiesischen Urkunden schon
+1447 erwähnt, waren überdieß von thätigen und unternehmenden
+Seeleuten bewohnt, die mit Irland, Island u. s. w. in
+Verbindung standen und von denen schon im Allgemeinen
+erwartet werden konnte, daß sie befähigt und durch die natürlichen
+Verhältnisse angeregt waren, die Fahrten gegen <hi rend='gesperrt'>Westen</hi>
+fortzusetzen. Auch soll nach einer alten, sich immer wiederholenden
+Sage, die der Geschichtsschreiber der Azoren, Fructuosa
+bei Cordeyro und <foreign lang="pt" rend='antiqua; gesperrt'>Historia del Reyno de
+<pb n='34'/><anchor id='Pg034'/>Portugal por Manuel de Faria y 
+    Sousa</foreign>
+umständlich erwähnt, die aber Martin Behaim, Barros u. s. w.
+nicht kannten, auf Corvo ein Steinbild (ein Mann zu Roß,
+der mit der ausgestreckten Rechten gegen Nordwesten deutete)
+von den Entdeckern gefunden worden sein, durch welches Columbus
+nach einer neidischen Ueberlieferung eine Offenbarung
+von der Neuen Welt empfangen haben soll; jedoch scheint diese
+angebliche Reiterstatue – wenn nicht etwa ein vulkanisches
+Vorgebirge aus Basalt, Trachyt und emphibolischem Porphyr
+in Form eines Reiters gleich des Hestmann in Finnmarken
+oder ein Warnungssignal vor oceanischen Fahrten – wie die
+Bildsäulen des Hercules einem und demselben Cyklus systematischer
+Träumereien auf dem Gebiete der Geographie anzugehören.
+Im Uebrigen verbürgt sich der gelehrte Geschichtsschreiber
+Damião de Goes (<foreign lang="pt" rend='antiqua'><hi rend='gesperrt'>Chron. do Princ. D.
+Joam. Lisboa</hi> 1790 cap. IX. p. 119.</foreign>) für die Thatsache,
+daß einige Fragmente dieses Steinbildes nach Lissabon
+gekommen sind und setzt hinzu, daß die unleserlichen Buchstaben
+der Inschrift, von der 1529 ein Wachsabdruck genommen
+wurde, von Normannen herrühren könnten, also Runnen gewesen
+sein möchten. Auffallend bleibt es nur, daß Behaim,
+der, wie bemerkt, geraume Zeit auf den Azoren gelebt, nichts
+von diesem Steinbilde weiß.
+</p>
+
+<p>
+Endlich liegt die Vermuthung nahe, daß ein solcher Seefahrer
+wie Martin Behaim in den besten Jahren, dem aber,
+so wie Columbus, nicht nur die von den Scandinaviern ge<pb n='35'/><anchor id='Pg035'/>machten 
+    Weinlandsfahrten nach Nord-Amerika, sondern auch
+die von Seneca, Plato, Aristoteles, Eratosthenes, Diodor von
+Sicilien u. s. w. gegebenen dunkeln Andeutungen über einen
+unbekannten, im atlantischen Ocean liegenden Kontinent bekannt
+gewesen sein müssen, nicht nur alle darauf bezüglichen
+Zeichen und Angaben eingesammelt hat, sondern vielleicht auch
+selbst, wie wir eben bei der Reise des Ferdinand Dulmo angedeutet,
+nach der von ihm in 24° Breite verlegten Insel
+Antillia gesegelt ist. Diese Annahme einer westlichen Reise
+des Behaim, die von den Azoren nach der Zwischenstation der
+Bermudas und Bahamas und von hier nach den Antillen
+leicht und in kurzer Zeit (Columbus segelte auf seiner zweiten
+Reise von <hi rend='gesperrt'>Cadix</hi> nach den Antillischen Inseln kaum <hi rend='gesperrt'>sechs</hi>
+Wochen) auszuführen war, gewinnt dadurch an Wahrscheinlichkeit,
+daß Martin Behaim durch <name rend='antiqua'>Regiomontans</name> verbessertes
+Astrolabium die Schiffer bekanntlich in den Stand gesetzt
+hat, mittelst dieses Instrumentes nach der Sonnenhöhe die
+Entfernungen zu bestimmen und sich auf offener See zurecht
+zu finden.
+</p>
+
+<p>
+Zum Schluß unserer Abhandlung kommen wir endlich
+IV. auf den Einfluß, welchen Martin Behaim auf die Entdeckung
+der Patagonischen Meerenge ausgeübt hat. Zwei
+Werke, deren Autorität, wie bemerkt, nicht in Zweifel gezogen
+werden darf, die Dekaden des Herrera und die in der Ambrosianischen
+Bibliothek zu Mailand aufbewahrte und im Jahre
+1800 von Amoretti bekannt gemachte Handschrift des Piga<pb n='36'/><anchor id='Pg036'/>fetta
+    lassen auf gleiche Weise diesen Einfluß erkennen. Nach
+Herrera (<foreign lang="la" rend='antiqua'>Dec. II, lib. II, cap.</foreign> 20 und 21; 
+    <foreign lang="la" rend='antiqua'>lib. IV.,
+        cap. 10, Tom. I, pag. 193, 195, 338</foreign>) zeigte Magellan am
+spanischen Hofe zu Valladolid dem Bischof von Burgos eine gemalte
+Erdkugel (<foreign lang="es" rend='antiqua; gesperrt'>globo bien pintado</foreign>), auf welcher
+er den Weg verzeichnet hatte, den er zu nehmen gedachte, indem
+er die Meerenge absichtlich weiß ließ, damit man ihm
+sein Geheimniß nicht entwenden konnte. ... Er fügte hinzu,
+daß er um so gewisser wäre, eine Meerenge anzutreffen, als er
+sie gesehen hätte (ohne Angabe des Ortes) auf einer von Martin
+de Bohemia, einem von der Insel Fayal gebürtigen Portugiesen
+(?) und Kosmographen von großem Rufe angefertigten
+Seekarte, und daß diese Karte ihm viel Licht (<foreign lang="es" rend='antiqua; gesperrt'>mucha luz</foreign>)
+    über jene <anchor id="corr36"/><corr sic="Merrenge">Meerenge</corr> verschafft habe. Pigafetta, einer der achtzehn
+Reisegefährten des Magellan, welche das Glück hatten,
+am <anchor id="corr36-2"/><corr sic="6">6.</corr> September 1522 Europa wiederzusehen, sagt: „Am
+21. Octbr. 1520 fanden wir eine Meerenge .... aber unser
+Anführer hatte Kunde (Magellan war nämlich die Küste jenseits
+des Vorgebirges St. Maria zur Mündung des Rio de
+Solis d. h. Rio de la Plata gefahren), daß er durch eine sonderbar
+verborgene Meerenge hindurchsteuern müsse, welche er
+aus einer in den Archiven (<foreign lang="es" rend='antiqua; gesperrt'>tesoreria</foreign>) des Königs von
+Portugal (im Schatz des Königs Emanuel im Kloster von Alcobaca?)
+aufbewahrten und von einem ausgezeichneten Kosmographen
+Martino de Boemia angefertigten Seekarte <anchor id="corr36-3"/><corr sic="gegesehen">gesehen</corr>
+habe.“
+</p>
+
+<pb n='37'/><anchor id='Pg037'/>
+
+<p>
+So lautet Herrera’s und Pigafetta’s Bericht über den
+Einfluß Behaim’s auf die Entdeckung der Patagonischen Meerenge,
+der nicht abgestritten werden kann. Mag man sagen,
+daß Magellan fälschlich dem berühmten Nürnberger Kosmographen
+die besagte Karte zugeschrieben, daß öffentliche Urkunden,
+in welchen nur die auf Kosten der spanischen Regierung
+unternommenen Seefahrten verzeichnet sind, uns keine
+absolute Gewißheit geben, daß zu einer gewissen Epoche die
+Entdeckungen nur bis zu dieser oder jener Grenze und nicht
+weiter ausgedehnt worden seien, mag man ferner sagen, daß
+wahre oder falsche Nachrichten durch Beimengung von Muthmaßungen
+und Combinationen entstellt, daß die ungenauen
+Kenntnisse von der Gestaltung des Neuen Kontinents nach
+seiner Südspitze hin sich vor 1517 auf den alten Seekarten
+abgespiegelt haben werden, daß Magellan eine dieser Karten
+in den Archiven des Königs von Portugal gesehen habe, daß
+Magellan, wie das Tagebuch des Pigafetta andeutet, von dem
+Dasein einer Durchfahrt jenseit des Rio de la Plata überzeugt
+war, daß aber die in den Archiven gesehene Karte des Behaim
+mit einer australischen Meerenge, die Lage dieser Durchfahrt
+keineswegs angebe und jedenfalls (?) dem Trugbilde der
+Schoner’schen Erdkugel, auf welcher das angegebene Süd-Amerika
+oder Brasilien nur eine höchst fehlerhafte Copie einer
+alten Weltkarte des Ruysch zum Ptolemäus sei, gleiche, daß
+Magellan bereits mitten in der nach ihm benannten Straße
+<pb n='38'/><anchor id='Pg038'/>liegend, noch bezweifelt, ob es eine Meerenge oder ein trügerischer
+Golf sei, mag man dies Alles und noch viel mehr
+sagen, so können doch die oben angeführten, von gleichzeitigen
+Schriftstellern entlehnten thatsächlichen Zeugnisse nicht bezweifelt
+werden, welche klar und deutlich beweisen, <hi rend='gesperrt'>erstlich</hi>,
+daß Magellan auf einer Karte in Portugal die besagte Meerenge
+verzeichnet gesehen hatte, welche er im Süden der Mündung
+des Rio de la Plata suchte, und <hi rend='gesperrt'>zweitens</hi>, daß er
+diese Karte dem zehn Jahre vorher verstorbenen Behaim zuschreibt.
+Aus dem i. J. 1492 verfertigten Globus Behaim’s
+findet sich allerdings keine Spur einer Küste Brasiliens und
+ebensowenig eine Meerenge. – Wenn man nun auch vielleicht
+sagen könnte, daß Behaim auf seinen, an der südafrikanischen
+Küste gemachten Reisen, auf welchen er selbst bis zum 22° südl.
+Br. den Weg um Afrika angebahnt und den er auch auf seinem
+Globus vollständig angezeigt, obgleich ihn erst 1498 Vasco
+de Gama völlig zurückgelegt hat, wie früher die kompaßlosen
+Scandinavier von Island nach Grönland und Vinland, oder
+wie Cabral 1500 nach Brasilien getrieben worden sei, so ist
+doch mit Gewißheit anzunehmen, daß Martin Behaim vor dem
+Jahre 1494 nicht nach Brasilien und also auch nicht an die
+Magellanstraße gekommen ist. Daraus aber den Schluß ziehen
+zu wollen, daß Behaim die Anregung zur Entdeckung der
+Magellanstraße nicht hätte geben können, ist falsch, weil Behaim
+einerseits bei seinem langjährigen Aufenthalt auf Fayal
+<pb n='39'/><anchor id='Pg039'/>(bis 1506) überhaupt viele wahre oder muthmaßliche Angaben
+über die Gestaltung der Ostküste von Süd-Amerika dort einzusammeln
+im Stande gewesen ist und andererseits auch erst
+<hi rend='gesperrt'>nach</hi> dem Jahre 1492, wo er seinen Globus verfertigte, wenn
+er auch nicht selbst an den Entdeckungsreisen jener Periode
+theilgenommen, doch sehr wohl Kenntniß von dieser Meerenge
+erhalten hat, um auch eine Karte darüber anfertigen zu können,
+die Magellan gesehen.
+</p>
+
+<p>
+Die von uns näher beleuchteten Aussagen der spanischen
+und portugiesischen Schriftsteller, das Buch der Chroniken von
+Hartmann Schedel, der von Behaim im Jahre 1492 zu Nürnberg
+verfertigte Globus und die gewichtigen Zeugnisse Herrera’s
+und Pigafetta’s beweisen unwidersprechlich, daß Martin
+Behaim aus Nürnberg ein berühmter außerordentlicher Mann
+gewesen ist, <hi rend='gesperrt'>der jedenfalls Columbus in seinem
+Plan, nach Westen zu segeln, bestärkt und wesentlich
+zur Ausführung des Planes von Columbus
+beigetragen hat</hi>. Somit ist Behaim für die Entdeckung
+Amerika’s von wesentlichem Nutzen und Einfluß gewesen und
+der deutschen Wissenschaft kommt die Ehre zu, jenen berühmten
+Seefahrern: Columbus, Vespucci, Vasco de Gama, Magellan
+u. s. w. die Möglichkeit an die Hand gegeben zu haben,
+sich weiter in den Ocean hinaus zu wagen. In dieser Beziehung
+haben, wie ich schon früher bemerkt<note place="foot">Geograph. Mitth. von Petermann. 1858. 
+    Heft X.</note>, neben den
+<pb n='40'/><anchor id='Pg040'/>Italienern, Spaniern, Portugiesen, Engländern und Franzosen
+auch die Deutschen infolge der natürlichen hohen Begabung
+des germanischen Geistes Theil an der Ehre, auf die Entdeckung
+und Entwickelung Amerika’s eben so bedeutend als wohlthätig
+eingewirkt zu haben.
+</p>
+        </body>
+        <back>
+            <div>
+                <pgIf output="pdf">
+                    <then>
+                    </then>
+                    <else>
+                        <div rend="page-break-before: always">
+                            <head>Fußnoten</head>
+                            <divGen type="footnotes"/>
+                        </div>
+                    </else>
+                </pgIf>
+            </div>
+            <div rend="page-break-before: right; x-class: boxed">
+                <index index="pdf"/>
+                <head>Bemerkungen zur Textgestalt</head>
+                <pgIf output="pdf">
+                    <then/>
+                    <else>
+                        <p>Die Fußnoten wurden an das Ende des Textes versetzt.</p>
+                    </else>
+                </pgIf>
+                
+                <pgIf output="txt"><then><p>Die Originalausgabe ist in Fraktur gesetzt. 
+                    In der Textfassung sind Passagen in Antiqua (bis auf römische Zahlen und „Dr.“
+                    im deutschen Satzzusammenhang)
+                    und Sperrung durch Unterstriche markiert, Fettdruck durch Sternchen.</p></then>
+                <else>
+                    <p>
+                        Die Originalausgabe ist in Fraktur gesetzt. Passagen in Antiqua sind hier
+                        kursiv wiedergegeben 
+                (bis auf römische Zahlen und den Titel „Dr.“ im deutschen Satzzusammenhang).
+                Im Original kursive Passagen in Antiqua sind fett und kursiv gesetzt.
+                Sperrung ist so übernommen, ebenso Fettdruck auf der Titelseite.
+                Seitenzahlen in Literaturangaben werden in der Schrift der vorhergehenden Wörter wiedergegeben.
+                    </p>
+                </else></pgIf>
+                <p>Folgende mutmaßliche Druckfehler wurden korrigiert:</p>
+                <list>
+                    <item><ref target="corr13">S. 13</ref>: „berühmte“ geändert in „berühmten“</item>
+                    <item><ref target="corr14">S. 14</ref>: Anführungszeichen vor „Columbus“ entfernt</item>
+                    <item><ref target="corr17">S. 17</ref>: Anführungszeichen hinter „Vespuzzi.“ hinzugefügt</item>
+                    <item><ref target="corr18">S. 18</ref>: Punkt hinter „XVI“ hinzugefügt</item>
+                    <item><ref target="corr19">S. 19</ref>: Punkt hinter „Settlem“ hinzugefügt</item>
+                    <item><ref target="corr19-2">S. 19</ref>: Punkt hinter „übersetzt“ hinzugefügt</item>
+                    <item><ref target="corr22">S. 22</ref>: Anführungszeichen hinter „hätten.“ entfernt</item>
+                    <item><ref target="corr24">S. 24</ref>: „verzeichzeichneten“ geändert in „verzeichneten“</item>
+                    <item><ref target="corr36">S. 36</ref>: „Merrenge“ geändert in „Meerenge“</item>
+                    <item><ref target="corr36-2">S. 36</ref>: Punkt hinter „6“ hinzugefügt</item>
+                    <item><ref target="corr36-3">S. 36</ref>: „gegesehen“ geändert in „gesehen“</item>
+                </list>
+                <p>Nicht geändert wurden Schreibvarianten („Kompas“ und „Kompaß“; 
+                    „Ptolomäus“, „Ptolemäus“ und „Ptolamais“; „jenseit“ und „jenseits“) sowie heute 
+                    unübliche Wortformen wie „mehre“ statt „mehrere“.</p>
+            </div>
+            <div rend="page-break-before: right">
+                <divGen type="pgfooter" />
+            </div>
+        </back>
+    </text>
+</TEI.2>
