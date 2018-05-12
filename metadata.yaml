@@ -1,0 +1,31 @@
+_repo: Martin-Behaim-aus-N-rnberg.-Der-geistige-Entdecker-Amerika-s_31321
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Ziegler, Alexander
+    birthdate: 1822
+    deathdate: 1887
+    gutenberg_agent_id: '35150'
+    url: http://www.gutenberg.org/2009/agents/35150
+description: ''
+gutenberg_bookshelf:
+- DE Prosa
+- DE Sachbuch
+gutenberg_issued: '2010-02-18'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '31321'
+  lccn: '27012476'
+language: de
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Behaim, Martin, 1459-1507'
+- !lcsh 'America -- Discovery and exploration'
+- !lcc 'E011'
+title: Martin Behaim aus Nürnberg. Der geistige Entdecker Amerika's
+url: http://www.gutenberg.org/ebooks/31321
