@@ -11,6 +11,8 @@ creator:
     gutenberg_agent_id: '35150'
     url: http://www.gutenberg.org/2009/agents/35150
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/31321#Martin-Behaim-aus-N-rnberg.-Der-geistige-Entdecker-Amerika-s
 gutenberg_bookshelf:
 - DE Prosa
 - DE Sachbuch
